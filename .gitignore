@@ -1,0 +1,25 @@
+.DS_Store
+
+# Local build/runtime output
+build-*/
+*.df
+*_lemmas.json
+translations.json
+current_batch.txt
+wf_remaining.txt
+
+# Extracted/generated dictionary archives can contain hundreds of files.
+dicthtml-*/
+dicthtml-*\(*\)/
+
+# Keep release zips only in intentional public/release locations.
+*.zip
+!docs/downloads/*.zip
+!dictionaries/**/*.zip
+
+# Local tool caches
+.codex/
+.claude/
+.env
+.venv/
+__pycache__/
