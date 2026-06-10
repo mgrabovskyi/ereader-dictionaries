@@ -1,0 +1,10 @@
+{
+  "id": "kobo-es-uk",
+  "name": "Spanish to Ukrainian for Kobo",
+  "source_language": "es",
+  "target_language": "uk",
+  "format": "kobo-dicthtml",
+  "download": "../../docs/downloads/dicthtml-es-uk.zip",
+  "status": "preview",
+  "notes": "Preview build generated during early Spanish to Ukrainian dictionary work."
+}

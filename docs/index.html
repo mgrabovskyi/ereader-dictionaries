@@ -1,0 +1,97 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Ereader Dictionaries</title>
+    <meta
+      name="description"
+      content="Custom dictionaries for Kobo and other ereaders, starting with a Spanish to Ukrainian Kobo dictionary."
+    >
+    <link rel="stylesheet" href="assets/styles.css">
+  </head>
+  <body>
+    <header class="site-header">
+      <a class="brand" href="./">Ereader Dictionaries</a>
+      <nav aria-label="Main navigation">
+        <a href="#download">Download</a>
+        <a href="#examples">Examples</a>
+        <a href="#requests">Custom requests</a>
+      </nav>
+    </header>
+
+    <main>
+      <section class="hero">
+        <div class="hero-copy">
+          <p class="eyebrow">Custom dictionaries for ereaders</p>
+          <h1>Spanish to Ukrainian dictionary for Kobo</h1>
+          <p>
+            Read Spanish books on your Kobo with Ukrainian lookup support. This project keeps free downloadable dictionaries and notes for future ereader formats.
+          </p>
+          <div class="actions">
+            <a class="button primary" href="downloads/dicthtml-es-uk.zip">Download Kobo ZIP</a>
+            <a class="button secondary" href="https://github.com/mgrabovskyi/ereader-dictionaries">View on GitHub</a>
+          </div>
+        </div>
+      </section>
+
+      <section id="download" class="section">
+        <div class="section-heading">
+          <p class="eyebrow">Current release</p>
+          <h2>Download</h2>
+        </div>
+        <div class="download-panel">
+          <div>
+            <h3>Spanish to Ukrainian for Kobo</h3>
+            <p>
+              Kobo <code>dicthtml</code> archive. Copy it to your Kobo's <code>.kobo/custom-dict/</code> folder, then restart the device.
+            </p>
+          </div>
+          <a class="button primary" href="downloads/dicthtml-es-uk.zip" download>Download dicthtml-es-uk.zip</a>
+        </div>
+        <ol class="steps">
+          <li>Connect your Kobo to your computer by USB.</li>
+          <li>Copy the downloaded ZIP into <code>.kobo/custom-dict/</code>.</li>
+          <li>Eject and restart your Kobo.</li>
+          <li>Open a Spanish book and tap a word to look it up.</li>
+        </ol>
+      </section>
+
+      <section id="examples" class="section alt">
+        <div class="section-heading">
+          <p class="eyebrow">Lookup examples</p>
+          <h2>What entries look like</h2>
+        </div>
+        <div class="examples">
+          <article>
+            <h3>abrazar</h3>
+            <p><strong>verb</strong> - обіймати; охоплювати; приймати або підтримувати ідею.</p>
+          </article>
+          <article>
+            <h3>casa</h3>
+            <p><strong>noun</strong> - дім; будинок; оселя; родина або династія.</p>
+          </article>
+          <article>
+            <h3>libre</h3>
+            <p><strong>adjective</strong> - вільний; незалежний; незайнятий; безкоштовний у певних контекстах.</p>
+          </article>
+        </div>
+      </section>
+
+      <section id="requests" class="section">
+        <div class="section-heading">
+          <p class="eyebrow">Need another dictionary?</p>
+          <h2>Custom requests</h2>
+        </div>
+        <p class="wide-text">
+          I can prepare dictionaries for specific ereaders, formats, or language pairs when good source data exists. If you want a custom build, open an issue on GitHub with your device, language pair, and preferred format. Small donations help cover the time needed for research, conversion, testing, and packaging.
+        </p>
+        <a class="button secondary" href="https://github.com/mgrabovskyi/ereader-dictionaries/issues">Request a dictionary</a>
+      </section>
+    </main>
+
+    <footer>
+      <p>Made by <a href="https://github.com/mgrabovskyi">mgrabovskyi</a>. Dictionary data licenses are documented per release.</p>
+    </footer>
+  </body>
+</html>
