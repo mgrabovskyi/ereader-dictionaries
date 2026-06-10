@@ -243,14 +243,92 @@ h3 {
 .examples {
   display: grid;
   grid-template-columns: repeat(3, minmax(0, 1fr));
+  align-items: start;
 }
 
-.examples article {
+/* on-device lookup popup, mimicking the Kobo dictionary card */
+.example {
+  margin: 0;
   min-width: 0;
-  padding: 22px;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.lookup {
+  background: var(--surface);
   border: 1px solid rgba(8, 79, 79, 0.16);
-  border-radius: 8px;
-  background: rgba(255, 255, 255, 0.78);
+  border-radius: 14px;
+  padding: 16px 20px 14px;
+  box-shadow: 0 14px 34px rgba(8, 79, 79, 0.12);
+}
+
+.lookup-head {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+  padding-bottom: 11px;
+  border-bottom: 1px solid var(--line);
+  color: var(--muted);
+  font-size: 0.9rem;
+}
+
+.lookup-dir {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.lookup-menu {
+  letter-spacing: 1px;
+}
+
+.lookup-word {
+  margin: 16px 0 2px;
+  font-family: Georgia, "Times New Roman", serif;
+  font-weight: 700;
+  font-size: 1.7rem;
+  line-height: 1.1;
+  color: var(--text);
+}
+
+.lookup-pos {
+  margin: 0 0 10px;
+  color: var(--muted);
+  font-size: 0.92rem;
+}
+
+.lookup-senses {
+  margin: 0 0 14px;
+  padding-left: 1.45em;
+  color: var(--text);
+}
+
+.lookup-senses li {
+  margin: 3px 0;
+}
+
+.lookup-foot {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+  padding-top: 12px;
+  border-top: 1px solid var(--line);
+  color: var(--muted);
+  font-size: 0.92rem;
+}
+
+.lookup-open {
+  flex: none;
+  color: var(--muted);
+}
+
+.lookup-note {
+  margin: 0;
+  color: var(--muted);
+  font-size: 0.92rem;
 }
 
 footer {
