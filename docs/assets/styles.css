@@ -101,7 +101,8 @@ h1,
 h2,
 h3,
 p {
-  overflow-wrap: anywhere;
+  /* break only when a single word can't fit; never split a word mid-character */
+  overflow-wrap: break-word;
 }
 
 h1 {
