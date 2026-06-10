@@ -74,44 +74,44 @@ footer a:hover {
 }
 
 .hero {
-  background: linear-gradient(180deg, var(--accent-soft), var(--bg) 60%);
+  min-height: clamp(520px, 72vh, 720px);
+  display: flex;
+  align-items: center;
+  background:
+    linear-gradient(
+      90deg,
+      rgba(251, 250, 247, 0.97) 0%,
+      rgba(251, 250, 247, 0.9) 34%,
+      rgba(251, 250, 247, 0.45) 56%,
+      rgba(251, 250, 247, 0) 74%
+    ),
+    url("hero-ereader-dictionary.jpg");
+  background-position: center right;
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
 .hero-inner {
   max-width: 1180px;
   margin: 0 auto;
-  display: flex;
-  align-items: center;
-  gap: clamp(28px, 4vw, 64px);
+  width: 100%;
 }
 
 .hero-copy {
-  flex: 1 1 520px;
-  max-width: 680px;
+  max-width: 560px;
 }
 
-.hero-media {
-  flex: 1 1 460px;
-  min-width: 0;
-}
-
-.hero-media img {
-  display: block;
-  width: 100%;
-  height: auto;
-  border-radius: 14px;
-  box-shadow: 0 24px 60px rgba(8, 79, 79, 0.18);
-}
-
-@media (max-width: 900px) {
-  .hero-inner {
-    flex-direction: column;
-    align-items: flex-start;
-  }
-
-  .hero-media {
-    width: 100%;
-    flex-basis: auto;
+@media (max-width: 760px) {
+  .hero {
+    background:
+      linear-gradient(
+        180deg,
+        rgba(251, 250, 247, 0.96) 0%,
+        rgba(251, 250, 247, 0.86) 40%,
+        rgba(251, 250, 247, 0.7) 100%
+      ),
+      url("hero-ereader-dictionary.jpg");
+    background-position: center;
   }
 }
 
@@ -272,10 +272,6 @@ footer p {
 
   nav {
     flex-wrap: wrap;
-  }
-
-  .hero {
-    min-height: auto;
   }
 
   .examples,
