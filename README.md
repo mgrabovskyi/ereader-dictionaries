@@ -1,48 +1,71 @@
 # Ereader Dictionaries
 
-Custom dictionaries for ereaders.
+Free, custom-built dictionaries for e-readers.
 
-The first dictionary in this project is a Spanish to Ukrainian dictionary for Kobo readers. The project can later grow into English to Ukrainian dictionaries, other language pairs, and conversion tools for other ereader formats.
+The first release is a **complete Spanish → Ukrainian dictionary for Kobo** — the first
+comprehensive one of its kind. The project can grow into other language pairs and other
+ereader formats over time.
 
 ## Download
 
-The public download page is designed to live at:
+Public download page: **https://mgrabovskyi.github.io/ereader-dictionaries/**
 
-https://mgrabovskyi.github.io/ereader-dictionaries/
+Current release:
 
-Current local release:
+- **Spanish → Ukrainian for Kobo** — `docs/downloads/dicthtml-es-uk.zip` (free)
 
-- Spanish to Ukrainian for Kobo: `docs/downloads/dicthtml-es-uk.zip`
+### What's in it
+
+| | |
+|---|---|
+| Headwords | **65,122** (complete A–Z, plus Ñ) |
+| Inflected forms | **508,283** — verb conjugations and plurals resolve to their entry |
+| Senses | multiple Ukrainian equivalents per word, in source order |
+| Size | 4.1 MB |
+| Works offline | yes — no account, no internet |
 
 ## Install on Kobo
 
 1. Download `dicthtml-es-uk.zip`.
 2. Connect the Kobo to your computer by USB.
-3. Copy the zip file into `.kobo/custom-dict/` on the device.
+3. Copy the ZIP into `.kobo/custom-dict/` on the device (create the folder if it doesn't exist).
 4. Safely eject the Kobo and restart it.
-5. Open a Spanish book and use word lookup.
+5. Open a Spanish book and long-press a word to look it up.
 
-If the `custom-dict` folder does not exist, create it inside `.kobo`.
+Compatible with Kobo readers that support custom dictionaries (Clara, Libra, Sage, Elipsa,
+Forma, Aura, Glo, Nia). Kindle uses a different format — ask if you'd like one.
 
-## Project Structure
+## Custom builds
 
-- `docs/` - GitHub Pages site and downloadable files.
-- `dictionaries/` - dictionary metadata, notes, and future release assets.
-- `research/` - build plans, source research, and implementation notes.
+Need a **different language pair**, or this dictionary converted for a **different ereader
+or format** (Kindle, PocketBook, KOReader, StarDict)? Open a GitHub issue with your device,
+language pair, and format. Custom builds take real time to research, convert, test, and
+package, so they're done for a **small donation**.
 
-## Future Plans
+→ [Request a custom build](https://github.com/mgrabovskyi/ereader-dictionaries/issues/new)
 
-- Improve coverage and quality of the Spanish to Ukrainian Kobo dictionary.
-- Add English to Ukrainian.
-- Convert dictionaries for other ereaders and dictionary formats.
-- Offer custom dictionary builds for specific ereaders or language pairs.
+## Project structure
 
-## Custom Requests
+- `docs/` — GitHub Pages site (`index.html`) and the public download (`downloads/`).
+- `dictionaries/` — per-release metadata (`<pair>/manifest.json`).
+- `research/` — build plans, source research, and implementation notes.
 
-Need a dictionary for a specific ereader, language pair, or format? Open a GitHub issue with the details. I can build custom versions for a small donation when the source data and format make it practical.
+## How it's made
+
+Source vocabulary comes from [Kaikki](https://kaikki.org/) / Wiktextract (derived from
+Wiktionary). Entries are grouped by word, translated to Ukrainian with multiple senses
+preserved, and packaged into the Kobo `dicthtml` format (via
+[pgaskin/dictutil](https://github.com/pgaskin/dictutil)). It's a comprehensive,
+community-grade resource for reading — not a hand-edited academic dictionary. Corrections
+are welcome via issues.
 
 ## License
 
-Dictionary data may come from multiple upstream sources with their own licenses. Each release should document its source data and license notes before publication.
+- **Dictionary data:** derived from Wiktionary via Kaikki/Wiktextract — **CC BY-SA**. The
+  packaged dictionaries are distributed under the same license; attribution to Wiktionary
+  is required, and redistribution is permitted.
+- **Repository code and website:** **MIT License**.
 
-Repository code and website files are intended to be released under the MIT License unless stated otherwise.
+Each release documents its data source and license in `dictionaries/<pair>/manifest.json`.
+
+Not affiliated with Rakuten Kobo. "Kobo" is a trademark of its respective owner.

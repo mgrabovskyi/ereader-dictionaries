@@ -5,6 +5,18 @@
   "target_language": "uk",
   "format": "kobo-dicthtml",
   "download": "../../docs/downloads/dicthtml-es-uk.zip",
-  "status": "preview",
-  "notes": "Preview build generated during early Spanish to Ukrainian dictionary work."
+  "version": "1.0.0",
+  "released": "2026-06-10",
+  "status": "released",
+  "stats": {
+    "headwords": 65122,
+    "inflected_forms": 508283,
+    "letters_covered": "a-z and ñ",
+    "size_bytes": 4290553,
+    "size_human": "4.1 MB"
+  },
+  "data_source": "Kaikki / Wiktextract (derived from Wiktionary)",
+  "data_license": "CC BY-SA",
+  "price": "free",
+  "notes": "Complete A-Z (plus Ñ) Spanish to Ukrainian dictionary. Multi-sense entries with multiple Ukrainian equivalents per sense; inflected forms (verb conjugations, plurals) resolve to their base entry. Free download. Custom ereader/language-pair builds available on request for a small donation."
 }
