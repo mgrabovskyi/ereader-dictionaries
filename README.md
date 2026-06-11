@@ -10,27 +10,28 @@ ereader formats over time.
 
 Public download page: **https://mgrabovskyi.github.io/ereader-dictionaries/**
 
-Current release:
+Current releases (both free):
 
-- **Spanish → Ukrainian for Kobo** — `docs/downloads/dicthtml-es-uk.zip` (free)
+- **Spanish → Ukrainian for Kobo** — `docs/downloads/dicthtml-es-uk.zip`
+- **English → Ukrainian for Kobo** — `docs/downloads/dicthtml-en-uk.zip`
 
-### What's in it
+### What's in them
 
-| | |
-|---|---|
-| Headwords | **65,122** (complete A–Z, plus Ñ) |
-| Inflected forms | **508,283** — verb conjugations and plurals resolve to their entry |
-| Senses | multiple Ukrainian equivalents per word, in source order |
-| Size | 4.1 MB |
-| Works offline | yes — no account, no internet |
+| | Spanish → Ukrainian | English → Ukrainian |
+|---|---|---|
+| Headwords | **65,122** (complete A–Z, plus Ñ) | **51,951** (common vocabulary) |
+| Inflected forms | **508,283** | **83,084** |
+| Senses | multiple Ukrainian equivalents per word, in source order | same |
+| Size | 4.1 MB | 2.8 MB |
+| Works offline | yes — no account, no internet | yes |
 
 ## Install on Kobo
 
-1. Download `dicthtml-es-uk.zip`.
+1. Download the dictionary you want (`dicthtml-es-uk.zip` or `dicthtml-en-uk.zip`).
 2. Connect the Kobo to your computer by USB.
 3. Copy the ZIP into `.kobo/custom-dict/` on the device (create the folder if it doesn't exist).
 4. Safely eject the Kobo and restart it.
-5. Open a Spanish book and long-press a word to look it up.
+5. Open a book in that language and long-press a word to look it up.
 
 Compatible with Kobo readers that support custom dictionaries (Clara, Libra, Sage, Elipsa,
 Forma, Aura, Glo, Nia). Kindle uses a different format — ask if you'd like one.

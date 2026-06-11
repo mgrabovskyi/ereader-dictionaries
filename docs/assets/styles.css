@@ -228,6 +228,10 @@ h3 {
   background: var(--surface);
 }
 
+.download-panel + .download-panel {
+  margin-top: 14px;
+}
+
 .download-panel p,
 .examples p {
   margin: 0;

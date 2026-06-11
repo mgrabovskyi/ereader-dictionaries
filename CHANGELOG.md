@@ -1,5 +1,15 @@
 # Changelog
 
+## en-uk v1.0.0 — 2026-06-12
+
+First release of the **English → Ukrainian dictionary for Kobo**.
+
+- 51,951 headwords, scoped to match common existing EN→UA Kobo dictionaries (skips
+  misspellings, concatenated compounds, and ultra-rare/abbreviation noise).
+- 83,084 inflected forms mapped to their base entries.
+- Multi-sense entries with multiple Ukrainian equivalents per word.
+- Packaged as `dicthtml-en-uk.zip` (2.8 MB).
+
 ## es-uk v1.0.0 — 2026-06-10
 
 First complete release of the **Spanish → Ukrainian dictionary for Kobo**.

@@ -1,0 +1,21 @@
+{
+  "id": "kobo-en-uk",
+  "name": "English to Ukrainian for Kobo",
+  "source_language": "en",
+  "target_language": "uk",
+  "format": "kobo-dicthtml",
+  "download": "../../docs/downloads/dicthtml-en-uk.zip",
+  "version": "1.0.0",
+  "released": "2026-06-12",
+  "status": "released",
+  "stats": {
+    "headwords": 51951,
+    "inflected_forms": 83084,
+    "size_bytes": 2911992,
+    "size_human": "2.8 MB"
+  },
+  "data_source": "Kaikki / Wiktextract (derived from English Wiktionary)",
+  "data_license": "CC BY-SA",
+  "price": "free",
+  "notes": "Multi-sense English to Ukrainian dictionary. Vocabulary scoped to match common existing EN-UA Kobo dictionaries (~52k clean lemmas, skipping misspellings and concatenated artifacts). Inflected forms resolve to their base entry. Free download; custom builds on request for a small donation."
+}
