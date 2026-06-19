@@ -5,17 +5,17 @@
   "target_language": "uk",
   "format": "kobo-dicthtml",
   "download": "../../docs/downloads/dicthtml-en-uk.zip",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "released": "2026-06-12",
   "status": "released",
   "stats": {
-    "headwords": 51951,
-    "inflected_forms": 83084,
-    "size_bytes": 2911992,
-    "size_human": "2.8 MB"
+    "headwords": 91994,
+    "inflected_forms": 125262,
+    "size_bytes": 4402917,
+    "size_human": "4.2 MB"
   },
   "data_source": "Kaikki / Wiktextract (derived from English Wiktionary)",
   "data_license": "CC BY-SA",
   "price": "free",
-  "notes": "Multi-sense English to Ukrainian dictionary. Vocabulary scoped to match common existing EN-UA Kobo dictionaries (~52k clean lemmas, skipping misspellings and concatenated artifacts). Inflected forms resolve to their base entry. Free download; custom builds on request for a small donation."
+  "notes": "Multi-sense English to Ukrainian dictionary. Covers the existing EN-UA Kobo vocabulary plus the top ~100k most-common English words (91,994 clean lemmas; misspellings and concatenated artifacts skipped). Inflected forms resolve to their base entry. Free download; custom builds on request for a small donation."
 }

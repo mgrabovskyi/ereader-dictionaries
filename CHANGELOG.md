@@ -1,5 +1,14 @@
 # Changelog
 
+## en-uk v1.1.0 — 2026-06-12
+
+Expanded the English → Ukrainian dictionary to cover the **top ~100k most common
+English words** (in addition to the existing EN→UA vocabulary).
+
+- 91,994 headwords (up from 51,951), 125,262 inflected forms.
+- Same multi-sense quality; built in resumable chunks.
+- `dicthtml-en-uk.zip` now 4.2 MB.
+
 ## en-uk v1.0.0 — 2026-06-12
 
 First release of the **English → Ukrainian dictionary for Kobo**.

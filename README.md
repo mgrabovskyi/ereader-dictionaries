@@ -19,10 +19,10 @@ Current releases (both free):
 
 | | Spanish → Ukrainian | English → Ukrainian |
 |---|---|---|
-| Headwords | **65,122** (complete A–Z, plus Ñ) | **51,951** (common vocabulary) |
-| Inflected forms | **508,283** | **83,084** |
+| Headwords | **65,122** (complete A–Z, plus Ñ) | **91,994** (top ~100k common words) |
+| Inflected forms | **508,283** | **125,262** |
 | Senses | multiple Ukrainian equivalents per word, in source order | same |
-| Size | 4.1 MB | 2.8 MB |
+| Size | 4.1 MB | 4.2 MB |
 | Works offline | yes — no account, no internet | yes |
 
 ## Install on Kobo
